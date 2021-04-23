@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+    <body>
+
+        @@include('sections/header.html')
+
+        <div class="auth login">
+            <div class="container">
+                <div class="row auth__wrapper">
+
+                    <div class="col-lg-6">
+                        <div class="auth__form-wrapper">
+                            <p class="auth__title">Login to your account</p>
+                            <form action="#" class="auth__form">
+            
+                                 <div class="form-control">
+                                     <p>Username</p>
+                                    <input type="text" required name="username">
+                                    <span class="error-message">something is wrong.</span>
+                                  </div>
+                                  <!-- form-control -->
+                                  
+                                <div class="form-control password">
+                                    <p>Password</p>
+                                   <input type="password" required name="password">
+                                   <span class="form-control__icon"></span>
+                                   <span class="error-message">something is wrong.</span>
+                                </div>
+                                 <!-- form-control -->
+
+                                <div class="controls-wrapper space-between">
+                                    <a href="#" class="forgot-link --pc">Forgot password?</a>
+                                    <div class="checkbox__wrapper">
+                                        <label class="checkbox required">
+                                           <input type="checkbox" required="required" name="agree">
+                                            <span class="checkbox__text">
+                                                Remebmer me
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+            
+                                <div class="controls-wrapper">
+                                    <button class="btn btn-dark btn-form">Login</button>
+                                    <div class="auth__switch-wrapper">
+                                        Do not have an account? <a href="sign-up.html" class="auth__switch">Sign up</a>
+                                    </div>
+                                    <a href="#" class="forgot-link --mob">Forgot password?</a>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!-- col-6 -->
+                   
+                    <div class="col-lg-6">
+                        <div class="auth__img">
+                            <img src="./img/login-img.svg" alt="">
+                        </div>
+                    </div>
+                     <!-- col-6 -->
+
+                </div>
+            </div>
+        </div>
+
+
+        @@include('sections/footer.html')
+
+        <!-- @@include('sections/popups.html')  -->
+
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

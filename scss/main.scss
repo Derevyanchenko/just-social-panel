@@ -1,0 +1,19 @@
+// libs
+
+@import './libs/mCustomScrollbar';
+
+@import 'base.scss';
+
+@import './blocks/header.scss';
+@import './blocks/footer.scss';
+@import './blocks/popups.scss';
+
+//  pages
+
+@import './blocks/auth.scss';
+@import './blocks/faq.scss';
+@import './blocks/terms.scss';
+@import './blocks/services.scss';
+
+// thanks-page
+// @import '_thanks-page.scss';

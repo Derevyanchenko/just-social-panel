@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+    <body>
+
+        <div class="mobileMenu-overlay">
+    <div class="mobileMenu">
+        <button class="mobileMenu__close">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.925 8.08919C25.3725 7.53669 24.48 7.53669 23.9275 8.08919L17 15.0025L10.0725 8.07502C9.52002 7.52252 8.62752 7.52252 8.07502 8.07502C7.52252 8.62752 7.52252 9.52002 8.07502 10.0725L15.0025 17L8.07502 23.9275C7.52252 24.48 7.52252 25.3725 8.07502 25.925C8.62752 26.4775 9.52002 26.4775 10.0725 25.925L17 18.9975L23.9275 25.925C24.48 26.4775 25.3725 26.4775 25.925 25.925C26.4775 25.3725 26.4775 24.48 25.925 23.9275L18.9975 17L25.925 10.0725C26.4634 9.53419 26.4634 8.62752 25.925 8.08919Z" fill="#2F2E41"/>
+                </svg>                               
+        </button>
+        <div class="mobileMenu__container">
+            <ul class="header__menu"></ul>
+           <div class="header__btns">
+                <a href="#" class="btn btn-yellow">Sign up</a>
+                <a href="#" class="btn btn-dark">Login</a>
+           </div>
+           <div class="mobileMenu__img">
+               <img src="./img/burger-menu-img.svg" alt="">
+           </div>
+        </div>
+    </div>
+</div>
+
+<header class="header-secondary">
+    <div class="container">
+        <div class="header__wrapper">
+            <a href="/" class="logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <div class="header__right">
+                <ul class="header__menu">
+                    <li>
+                        <a href="services.html">Service</a>
+                    </li>
+                    <li>
+                        <a href="terms.html">Terms</a>
+                    </li>
+                    <li>
+                        <a href="api.html">API</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+               <div class="header__btns">
+                    <a href="sign-up.html" class="btn btn-yellow">Sign up</a>
+                    <a href="login.html" class="btn btn-dark">Login</a>
+               </div>
+
+               <div class="burger open-menu-js">
+                    <div class="open-menu">
+                        <img src="./img/burger.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- header__right -->
+        </div>
+    </div>
+</header>
+<!-- header -->
+
+
+
+        <div class="auth login">
+            <div class="container">
+                <div class="row auth__wrapper">
+
+                    <div class="col-lg-6">
+                        <div class="auth__form-wrapper">
+                            <p class="auth__title">Login to your account</p>
+                            <form action="#" class="auth__form">
+            
+                                 <div class="form-control">
+                                     <p>Username</p>
+                                    <input type="text" required name="username">
+                                    <span class="error-message">something is wrong.</span>
+                                  </div>
+                                  <!-- form-control -->
+                                  
+                                <div class="form-control password">
+                                    <p>Password</p>
+                                   <input type="password" required name="password">
+                                   <span class="form-control__icon"></span>
+                                   <span class="error-message">something is wrong.</span>
+                                </div>
+                                 <!-- form-control -->
+
+                                <div class="controls-wrapper space-between">
+                                    <a href="#" class="forgot-link --pc">Forgot password?</a>
+                                    <div class="checkbox__wrapper">
+                                        <label class="checkbox required">
+                                           <input type="checkbox" required="required" name="agree">
+                                            <span class="checkbox__text">
+                                                Remebmer me
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+            
+                                <div class="controls-wrapper">
+                                    <button class="btn btn-dark btn-form">Login</button>
+                                    <div class="auth__switch-wrapper">
+                                        Do not have an account? <a href="sign-up.html" class="auth__switch">Sign up</a>
+                                    </div>
+                                    <a href="#" class="forgot-link --mob">Forgot password?</a>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!-- col-6 -->
+                   
+                    <div class="col-lg-6">
+                        <div class="auth__img">
+                            <img src="./img/login-img.svg" alt="">
+                        </div>
+                    </div>
+                     <!-- col-6 -->
+
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <div class="logo footer-logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <ul class="header__menu footer__menu">
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="terms.html">Terms</a>
+                    </li>
+                    <li>
+                        <a href="api.html">API</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__socials">
+                <div class="footer__social">
+                    <img src="./img/footer-icon-1.svg" alt="" class="footer__social-icon">
+                    <a href="skype:justsocialpanel" class="footer__social-text">justsocialpanel</a>
+                </div>
+                <div class="footer__social">
+                    <img src="./img/footer-icon-2.svg" alt="" class="footer__social-icon">
+                    <a href="mailto:support@justsocial.com" class="footer__social-text">support@justsocial.com</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">
+            © Copyright 2021. All Rights Reserved by Justsocial ( Digital Web Solutions FZ LLC )
+        </p>
+    </div>
+</footer>
+
+        
+
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
