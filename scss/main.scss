@@ -2,18 +2,28 @@
 
 @import './libs/mCustomScrollbar';
 
-@import 'base.scss';
+@import 'base';
 
-@import './blocks/header.scss';
-@import './blocks/footer.scss';
-@import './blocks/popups.scss';
+@import './blocks/header';
+@import './blocks/footer';
+@import './blocks/popups';
 
 //  pages
 
-@import './blocks/auth.scss';
-@import './blocks/faq.scss';
-@import './blocks/terms.scss';
-@import './blocks/services.scss';
+@import './blocks/auth';
+@import './blocks/faq';
+@import './blocks/terms';
+@import './blocks/services';
+
+// main page
+
+@import './main-page/main';
+@import './main-page/ourServices';
+@import './main-page/whyAreWe';
+@import './main-page/bestSocial';
+@import './main-page/aboutUs';
+@import './main-page/reviews';
+
 
 // thanks-page
 // @import '_thanks-page.scss';

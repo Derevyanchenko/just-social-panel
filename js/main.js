@@ -160,11 +160,51 @@ $("select").styler({
       autoExpandScrollbar:true,
       advanced:{autoExpandHorizontalScroll:true}
     });
-
-    console.log("run")
 	}
 });
 
 
 
+});
+
+
+$(window).on("load resize", function() {
+
+  if( $(window).width() <= 1200 ) {
+
+    $('.reviews__slider').not('.slick-initialized').slick({
+      dots: true,
+      arrows: false,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      speed: 300,
+      appendDots: $(".reviews__dots"),
+      responsive: [
+        {
+          breakpoint: 1920,
+          settings: "unslick"
+        },
+        {
+          breakpoint: 1199.98,
+          settings: {
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 999.99,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 767.98,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    }); 
+
+  } 
 });

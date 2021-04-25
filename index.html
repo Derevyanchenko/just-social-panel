@@ -1,1 +1,703 @@
-<h1>Front page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Terms</title>
+    <!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="front-page">
+
+    <div class="mobileMenu-overlay">
+        <div class="mobileMenu">
+            <button class="mobileMenu__close">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25.925 8.08919C25.3725 7.53669 24.48 7.53669 23.9275 8.08919L17 15.0025L10.0725 8.07502C9.52002 7.52252 8.62752 7.52252 8.07502 8.07502C7.52252 8.62752 7.52252 9.52002 8.07502 10.0725L15.0025 17L8.07502 23.9275C7.52252 24.48 7.52252 25.3725 8.07502 25.925C8.62752 26.4775 9.52002 26.4775 10.0725 25.925L17 18.9975L23.9275 25.925C24.48 26.4775 25.3725 26.4775 25.925 25.925C26.4775 25.3725 26.4775 24.48 25.925 23.9275L18.9975 17L25.925 10.0725C26.4634 9.53419 26.4634 8.62752 25.925 8.08919Z" fill="#2F2E41"/>
+                    </svg>                               
+            </button>
+            <div class="mobileMenu__container">
+                <ul class="header__menu"></ul>
+                <div class="header__btns">
+                    <a href="sign-up.html" class="btn btn-yellow">Sign up</a>
+                    <a href="login.html" class="btn btn-dark">Login</a>
+            </div>
+            <div class="mobileMenu__img">
+                <img src="./img/burger-menu-img.svg" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+
+<main class="main">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="/" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <div class="header__right">
+                    <ul class="header__menu">
+                        <li>
+                            <a href="services.html">Service</a>
+                        </li>
+                        <li>
+                            <a href="terms.html">Terms</a>
+                        </li>
+                        <li>
+                            <a href="api.html">API</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                <div class="header__btns">
+                        <a href="sign-up.html" class="btn btn-yellow">Sign up</a>
+                        <a href="login.html" class="btn btn-dark">Login</a>
+                </div>
+
+                <div class="burger open-menu-js">
+                        <div class="open-menu">
+                            <img src="./img/burger.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- header__right -->
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="main__content">
+                    <h1 class="main__title">
+                        Cheapest SMM Panel <br>
+                        <b>For Resellers Over 8 Years!</b>
+                    </h1>
+                    <p class="main__desc">
+                        Get hundreds of&nbsp;High Quality Social Media Services in&nbsp;a&nbsp;distance of <br>a&nbsp;click. Bulkfollows is&nbsp;a&nbsp;SMM Panel with more then 5&nbsp;year on&nbsp;the <br>market and more then 40&nbsp;million orders processed successfully!
+                    </p>
+                    <button class="btn-yellow main__btn">Get started</button>
+                </div>
+            </div>
+            <!-- col -->
+
+            <div class="col-lg-6">
+                <div class="main__img">
+                    <img src="./img/main-img.svg" alt="">
+                </div>
+            </div>
+            <!-- col -->
+        </div>
+        <!-- row -->
+        <div class="main__form-wrapper">
+            <form action="#" method="POST" class="main__form">
+                <div class="form-control">
+                    <p>Username</p>
+                    <input type="text" required name="username">
+                    <span class="error-message">something is wrong.</span>
+
+                    <div class="checkbox__wrapper">
+                        <label class="checkbox required">
+                        <input type="checkbox" required="required" name="agree">
+                            <span class="checkbox__text">
+                                Remebmer me
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <!-- form-control -->
+
+                <div class="form-control password">
+                    <p>Password</p>
+                   <input type="password" required name="password">
+                   <span class="form-control__icon"></span>
+                   <span class="error-message">something is wrong.</span>
+
+                   <a href="#" class="forgot-link">Forgot password?</a>
+
+                   <div class="checkbox__wrapper --mobile">
+                    <label class="checkbox required">
+                        <input type="checkbox" required="required" name="agree">
+                        <span class="checkbox__text">
+                            Remebmer me
+                        </span>
+                    </label>
+                    </div>
+                </div>
+                 <!-- form-control -->
+                 
+                <div class="main-controls">
+                    <button class="btn btn-dark btn-form">Login</button>
+                    <div class="auth__switch-wrapper">
+                        Do not have an account? <br> <a href="sign-up.html" class="auth__switch">Sign up</a>
+                    </div>
+                </div>
+
+                <div class="tablet-controls-only">
+                    <div class="checkbox__wrapper">
+                        <label class="checkbox required">
+                        <input type="checkbox" required="required" name="agree">
+                            <span class="checkbox__text">
+                                Remebmer me
+                            </span>
+                        </label>
+                    </div>
+                    <a href="#" class="forgot-link">Forgot password?</a>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+</main>
+<!-- main -->
+
+
+    <section class="ourServices">
+        <div class="container">
+            <h2 class="section__title">Our Services</h2>
+            <p class="section__text">We do awesome services for our clients. Check some of our services.</p>
+
+            <div class="ourServices__wrapper">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+
+                    <div class="col-lg-3">
+                        <div class="ourServices__items">
+                            <div class="ourServices__item">
+                                <h4 class="ourServices__item-title">
+                                    TripAdvisor Reviews
+                                </h4>
+                                <p class="ourServices__item-text">
+                                    HQ Profiles from all over the world
+                                </p>
+                            </div>
+                            <!-- ourServices__item -->
+                            
+                            <div class="ourServices__item">
+                                <h4 class="ourServices__item-title">
+                                    ZOMATO Reviews
+                                </h4>
+                                <p class="ourServices__item-text">
+                                    Premium Organic Service
+                                </p>
+                            </div>
+                            <!-- ourServices__item -->
+
+                            <div class="ourServices__item">
+                                <h4 class="ourServices__item-title">
+                                    Yellow Pages Reviews
+                                </h4>
+                                <p class="ourServices__item-text">
+                                    Custom Reviews from real accounts
+                                </p>
+                            </div>
+                            <!-- ourServices__item -->
+                        </div>
+                    </div>
+                    <!-- col -->
+
+                    <div class="col-lg-4">
+                        <div class="ourServices__img">
+                            <img src="/img/main-page-service-img.svg" alt="">
+                        </div>
+                    </div>
+                    <!-- col -->
+
+                    <div class="col-lg-3">
+                        <div class="ourServices__items">
+                            <div class="ourServices__item">
+                                <h4 class="ourServices__item-title">
+                                    Ads click
+                                </h4>
+                                <p class="ourServices__item-text">
+                                    Best service to improve revenue from Google adsense
+                                </p>
+                            </div>
+                            <!-- ourServices__item -->
+    
+                            <div class="ourServices__item">
+                                <h4 class="ourServices__item-title">
+                                    YouTube AdWords views
+                                </h4>
+                                <p class="ourServices__item-text">
+                                    1 Million Views Under 6 to 10 Hours
+                                </p>
+                            </div>
+                            <!-- ourServices__item -->
+    
+                            <div class="ourServices__item">
+                                <h4 class="ourServices__item-title">
+                                    Trust Pilot Real Reviews
+                                </h4>
+                                <p class="ourServices__item-text">
+                                    Custom Reviews for your needs
+                                </p>
+                            </div>
+                            <!-- ourServices__item -->
+                        </div>
+                    </div>
+                    <!-- col -->
+
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+
+            <div class="ourServices__bg">
+                <img src="./img/ourServices-bg.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ourServices -->
+
+    <section class="whyAreWe">
+
+        <div class="whyAreWe__decoration">
+            <img src="./img/whyAreWe-bg-left.png" alt="">
+        </div>
+
+        <div class="container">
+            <h2 class="section__title">Why are we?</h2>
+            <p class="section__text">We are the only provider of targeted services in the marcket</p>
+
+            <div class="whyAreWe__wrapper">
+                <div class="row">
+
+                    <div class="col-lg-3">
+                        <div class="whyAreWe__item">
+                            <div class="whyAreWe__item-img">
+                                <img src="./img/whyAreWe-img-1.svg" alt="">
+                            </div>
+                            <h4 class="whyAreWe__item-title">Secure Payment</h4>
+                            <p class="whyAreWe__item-text">
+                                Transferring funds in a safer, faster, secure way from any computer, laptop or smart device.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- col-lg-3 -->
+
+                    <div class="col-lg-3">
+                        <div class="whyAreWe__item">
+                            <div class="whyAreWe__item-img">
+                                <img src="./img/whyAreWe-img-2.svg" alt="">
+                            </div>
+                            <h4 class="whyAreWe__item-title">Quality Products</h4>
+                            <p class="whyAreWe__item-text">
+                                Real and active community providing organic Followers & Likes at cheapest price in the market.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- col-lg-3 -->
+
+                    <div class="col-lg-3">
+                        <div class="whyAreWe__item">
+                            <div class="whyAreWe__item-img">
+                                <img src="./img/whyAreWe-img-3.svg" alt="">
+                            </div>
+                            <h4 class="whyAreWe__item-title">24/7 Customer Care</h4>
+                            <p class="whyAreWe__item-text">
+                                We made it easy for you to find help when you need it – both online and over the phone.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- col-lg-3 -->
+
+                    <div class="col-lg-3">
+                        <div class="whyAreWe__item">
+                            <div class="whyAreWe__item-img">
+                                <img src="./img/whyAreWe-img-4.svg" alt="">
+                            </div>
+                            <h4 class="whyAreWe__item-title">Money back guarantee</h4>
+                            <p class="whyAreWe__item-text">
+                                Your orders will be delivered according the description of the service, in case if your order will not be started in time we will refund your purchase completely.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- col-lg-3 -->
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- whyAreWe -->
+
+    <section class="bestSocial">
+
+        <div class="bestSocial__decoration">
+            <img src="./img/best-bg-right.svg" alt="">
+        </div>
+
+        <div class="container">
+            <h2 class="section__title">
+                Best Social Media Service
+            </h2>
+
+            <div class="bestSocial__wrapper">
+                <div class="row">
+
+                    <div class="col-lg-7">
+                        <div class="bestSocial__img">
+                            <img src="./img/bestSocial-img.png" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-5">
+                        <div class="bestSocial__content">
+                            <p>
+                                "It is very clear to see that social marketing has become a treasured tool in the scheme of things these days. Considering that more and more people are doing online work and are buying products on the internet, marketers cannot afford to neglect social networking sites to get in touch with customers. 
+                            </p>
+                            <p>
+                                Here at Likestarget can promote you to different social media entries to bring in a broader audience to your customer base, when we sell a social media reseller panel, we guarantee that you will see and increase in your client base. 
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bestSocial -->
+
+    <section class="aboutUs">
+
+        <div class="aboutUs__decoration">
+            <img src="./img/aboutUs-bg-right.png" alt="">
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-4">
+                    <div class="aboutUs__content">
+
+                        <div class="aboutUs__item">
+                            <div class="aboutUs__item-img">
+                                <img src="./img/aboutUs-img-1.svg" alt="">
+                            </div>
+                            <div class="aboutUs__item-content">
+                                <p class="aboutUs__item-title">Orders completed</p>
+                                <p class="aboutUs__item-number">30000000+</p>
+                            </div>
+                        </div>
+                        <!-- aboutUs__item -->
+
+                        <div class="aboutUs__item">
+                            <div class="aboutUs__item-img">
+                                <img src="./img/aboutUs-img-2.svg" alt="">
+                            </div>
+                            <div class="aboutUs__item-content">
+                                <p class="aboutUs__item-title">Prices starting from</p>
+                                <p class="aboutUs__item-number">0.001$/1K</p>
+                            </div>
+                        </div>
+                        <!-- aboutUs__item -->
+
+                        <div class="aboutUs__item">
+                            <div class="aboutUs__item-img">
+                                <img src="./img/aboutUs-img-3.svg" alt="">
+                            </div>
+                            <div class="aboutUs__item-content">
+                                <p class="aboutUs__item-title">An order is made every</p>
+                                <p class="aboutUs__item-number">0.14 sec</p>
+                            </div>
+                        </div>
+                        <!-- aboutUs__item -->
+
+                    </div>
+                </div>
+                <!-- col  -->
+
+                <div class="col-lg-6">
+                    <div class="aboutUs__cards">
+
+                        <div class="aboutUs__card-2-items">
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-1.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-2.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                        </div>
+                        <!-- row -->
+
+                        <div class="aboutUs__card-3-items">
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-3.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-4.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-5.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                        </div>
+                        <!-- row -->
+
+                        <div class="aboutUs__card-2-items">
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-6.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-7.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                        </div>
+                        <!-- row -->
+
+                        <div class="aboutUs__card-3-items">
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-8.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-9.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-10.svg" alt="">
+                            </div>
+                            <!-- aboutUs__card -->
+                        </div>
+                        <!-- row -->
+
+                        <div class="aboutUs__card-items --mobile">
+                            <div class="aboutUs__card">
+                                <img src="../img/card-img-1.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-2.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-3.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-4.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-5.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-6.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-7.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-8.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-9.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                             <div class="aboutUs__card">
+                                <img src="../img/card-img-10.svg" alt="">
+                            </div>
+                             <!-- aboutUs__card -->
+                        </div>
+                        <!-- --mobile -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- aboutUs -->
+
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section__title">Customer reviews</h2>
+
+            <div class="reviews__wrapper">
+                <div class="row reviews__slider">
+
+                    <div class="col-lg-3">
+                        <div class="reviews__item">
+                            <div class="reviews__item-review">
+                                <p>
+                                    I have been purchasing Instagram Likes for over a year and never got a delay! Bulkfollows did a great job always.
+                                </p>
+                            </div>
+                            <div class="reviews__item-user reviews__user">
+                                <div class="reviews__user-img">
+                                    <img src="./img/review-img-1.png" alt="">
+                                </div>
+                                <div class="reviews__user-content">
+                                    <p class="reviews__user-name">
+                                        Julia doe
+                                    </p>
+                                    <div class="reviews__user-stars">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col -->
+
+                    <div class="col-lg-3">
+                        <div class="reviews__item">
+                            <div class="reviews__item-review">
+                                <p>
+                                    Order 10000 Instagram Followers and Got my followers as promised in time! Happy to Purchased from Bulkfollows. 
+                                </p>
+                            </div>
+                            <div class="reviews__item-user reviews__user">
+                                <div class="reviews__user-img">
+                                    <img src="./img/review-img-2.png" alt="">
+                                </div>
+                                <div class="reviews__user-content">
+                                    <p class="reviews__user-name">
+                                        Michelle Hawkins
+                                    </p>
+                                    <div class="reviews__user-stars">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col -->
+
+                    <div class="col-lg-3">
+                        <div class="reviews__item">
+                            <div class="reviews__item-review">
+                                <p>
+                                    Purchased 2000 Facebook Likes for our company and worked indeed! Support is also in time always. Thanks
+                                </p>
+                            </div>
+                            <div class="reviews__item-user reviews__user">
+                                <div class="reviews__user-img">
+                                    <img src="./img/review-img-3.png" alt="">
+                                </div>
+                                <div class="reviews__user-content">
+                                    <p class="reviews__user-name">
+                                        Jane Cooper
+                                    </p>
+                                    <div class="reviews__user-stars">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col -->
+
+                    <div class="col-lg-3">
+                        <div class="reviews__item">
+                            <div class="reviews__item-review">
+                                <p>
+                                    I Just love the services, instant delivered my instagram likes order and the Facebook Page likes.
+                                </p>
+                            </div>
+                            <div class="reviews__item-user reviews__user">
+                                <div class="reviews__user-img">
+                                    <img src="./img/review-img-4.png" alt="">
+                                </div>
+                                <div class="reviews__user-content">
+                                    <p class="reviews__user-name">
+                                        Kristin Watson
+                                    </p>
+                                    <div class="reviews__user-stars">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col -->
+
+
+                </div>
+
+                <div class="reviews__dots"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <div class="logo footer-logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <ul class="header__menu footer__menu">
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="terms.html">Terms</a>
+                    </li>
+                    <li>
+                        <a href="api.html">API</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__socials">
+                <div class="footer__social">
+                    <img src="./img/footer-icon-1.svg" alt="" class="footer__social-icon">
+                    <a href="skype:justsocialpanel" class="footer__social-text">justsocialpanel</a>
+                </div>
+                <div class="footer__social">
+                    <img src="./img/footer-icon-2.svg" alt="" class="footer__social-icon">
+                    <a href="mailto:support@justsocial.com" class="footer__social-text">support@justsocial.com</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">
+            © Copyright 2021. All Rights Reserved by Justsocial ( Digital Web Solutions FZ LLC )
+        </p>
+    </div>
+</footer>
+
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,254 @@
+// aboutUs
+
+.aboutUs {
+    margin-top: 150px;
+    position: relative;
+    .row {
+
+        .col-lg-1 {
+            max-width: 8.3333%;
+            flex: 0 0 8.3333%;
+        }
+
+        .col-lg-4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+}
+
+.aboutUs__decoration {
+    z-index: -1;
+    position: absolute;
+    top: 113px;
+    right: 0;
+    img {
+        max-width: 100%;
+    }
+}
+
+
+.aboutUs__content {
+
+}
+
+.aboutUs__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 56px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &-img {
+        margin-right: 20px;
+        img {
+
+        }
+    }
+
+    &-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #2F2E41;
+        margin-bottom: 16px;
+    }
+
+    &-number {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2F2E41;
+    }
+
+}
+
+//  cards
+
+.aboutUs__cards {
+
+}
+
+.aboutUs__card-2-items {
+    display: flex;
+    padding-right: 67px;
+    justify-content: flex-end;
+}
+
+.aboutUs__card-3-items {
+    display: flex;
+    justify-content: flex-end;
+    &:last-child {
+        .aboutUs__card {
+            margin-bottom: 0;
+        }   
+    }
+
+}
+
+.aboutUs__card {
+    width: 183px;
+    height: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(200, 200, 200, 0.25);
+    border-radius: 15px;
+    img {
+        max-width: 100%;
+        border-radius: 15px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.aboutUs__card-items.--mobile {
+    display: none;
+}
+
+//  ##################################3333333
+// media
+
+
+@media (max-width: 1200px) {
+
+    .aboutUs__decoration {
+        top: 15px;
+        max-width: 330px;
+    }
+
+    .aboutUs .row .col-lg-1 {
+        display: none;
+    }
+
+    .aboutUs .row .col-lg-4 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .aboutUs .row .col-lg-6 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .aboutUs {
+        margin-top: 70px;
+    }
+
+    .aboutUs__decoration {
+        top: 65px;
+    }
+
+    .aboutUs .row .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .aboutUs .row .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .aboutUs__cards {
+        margin-top: 98px;
+        max-width: 597px;
+    }
+
+    .aboutUs__card img {
+        border-radius: 0;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .aboutUs {
+        margin-top: 60px;
+    }
+
+    .aboutUs__decoration {
+        display: none;
+    }
+
+    .aboutUs__cards {
+        margin-top: 60px;
+    }
+
+    .aboutUs__card {
+        width: 149px;
+        height: 81px;
+        margin-bottom: 12px;
+        margin-right: 12px;
+        padding: 8px 12px;
+    }
+
+    .aboutUs__item {
+        margin-bottom: 40px;
+    }
+
+    .aboutUs__item-img {
+        margin-right: 16px;
+        img {
+            width: 56px;
+            height: 56px;
+        }
+    }
+
+    .aboutUs__item-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .aboutUs__item-number {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .aboutUs__card-3-items,
+    .aboutUs__card-2-items {
+        display: none;
+    }
+
+    .aboutUs__card-items.--mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+        .aboutUs__card {
+            &:nth-child(4n+4) {
+                margin-right: 30px;
+            }
+            &:last-child,
+            &:nth-last-child(3n -1) {
+                margin-right: 12px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .aboutUs__card {
+        width: 128px;
+        height: 81px;
+        margin-bottom: 12px;
+        margin-right: 12px;
+        padding: 8px 12px;
+    }
+
+}

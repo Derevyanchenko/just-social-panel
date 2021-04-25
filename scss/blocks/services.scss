@@ -201,23 +201,23 @@
         line-height: 24px;
         color: #595867;
         // border: 1px solid #eee;
-        &-id {
+        &:nth-child(1) {
             width: 6%;
         }
-        &-service {
+        &:nth-child(2) {
             width: 37%;
             padding-right: 75px;
         }
-        &-rate {
+        &:nth-child(3) {
             width: 15%;
         }
-        &-min {
+        &:nth-child(4) {
             width: 12%;
         }
-        &-max {
+        &:nth-child(5) {
             width: 14%;
         }
-        &-description {
+        &:nth-child(6) {
             width: 15%;
         }
     }
@@ -230,23 +230,23 @@
     }
 
     .table-col {
-        &-id {
+        &:nth-child(1) {
             width: 6%;
         }
-        &-service {
+        &:nth-child(2) {
             width: 37%;
             padding-right: 75px;
         }
-        &-rate {
+        &:nth-child(3) {
             width: 15%;
         }
-        &-min {
+        &:nth-child(4) {
             width: 12%;
         }
-        &-max {
+        &:nth-child(5) {
             width: 14%;
         }
-        &-description {
+        &:nth-child(6) {
             width: 15%;
         }
     }
@@ -288,23 +288,23 @@
             line-height: 24px;
             color: #595867;
             // border: 1px solid #eee;
-            &-id {
+            &:nth-child(1) {
                 width: 6%;
             }
-            &-service {
+            &:nth-child(2) {
                 width: 32%;
                 padding-right: 35px;
             }
-            &-rate {
+            &:nth-child(3){
                 width: 17%;
             }
-            &-min {
+            &:nth-child(4) {
                 width: 15%;
             }
-            &-max {
+            &:nth-child(5) {
                 width: 14%;
             }
-            &-description {
+            &:nth-child(6) {
                 width: 15%;
             }
         }
@@ -316,23 +316,23 @@
         }
     
         .table-col {
-            &-id {
+            &:nth-child(1) {
                 width: 6%;
             }
-            &-service {
+            &:nth-child(2) {
                 width: 32%;
                 padding-right: 35px;
             }
-            &-rate {
+            &:nth-child(3){
                 width: 17%;
             }
-            &-min {
+            &:nth-child(4) {
                 width: 15%;
             }
-            &-max {
+            &:nth-child(5) {
                 width: 14%;
             }
-            &-description {
+            &:nth-child(6) {
                 width: 15%;
             }
         }
@@ -371,23 +371,23 @@
         .table-col {
             font-size: 18px;
             line-height: 18px;
-            &-id {
+            &:nth-child(1)  {
                 width: 6%;
             }
-            &-service {
+            &:nth-child(2)  {
                 width: 32%;
                 padding-right: 35px;
             }
-            &-rate {
+            &:nth-child(3)  {
                 width: 15%;
             }
-            &-min {
+            &:nth-child(4)  {
                 width: 14%;
             }
-            &-max {
+            &:nth-child(5)  {
                 width: 13%;
             }
-            &-description {
+            &:nth-child(6)  {
                 width: 19%;
             }
         }
@@ -399,23 +399,23 @@
         }
     
         .table-col {
-            &-id {
+            &:nth-child(1)  {
                 width: 6%;
             }
-            &-service {
+            &:nth-child(2)  {
                 width: 32%;
                 padding-right: 35px;
             }
-            &-rate {
+            &:nth-child(3)  {
                 width: 15%;
             }
-            &-min {
+            &:nth-child(4)  {
                 width: 14%;
             }
-            &-max {
+            &:nth-child(5)  {
                 width: 13%;
             }
-            &-description {
+            &:nth-child(6)  {
                 width: 19%;
             }
         }
@@ -460,23 +460,23 @@
         margin-bottom: 40px;
 
         .table-col {
-            &-id {
+            &:nth-child(1) {
                 width: 6%;
             }
-            &-service {
+            &:nth-child(2) {
                 width: 30%;
                 padding-right: 25px;
             }
-            &-rate {
+            &:nth-child(3) {
                 width: 16%;
             }
-            &-min {
+            &:nth-child(4) {
                 width: 14%;
             }
-            &-max {
+            &:nth-child(5) {
                 width: 13%;
             }
-            &-description {
+            &:nth-child(5){
                 width: 19%;
             }
         }
@@ -484,23 +484,23 @@
 
     .table-content {
         .table-col {
-            &-id {
+            &:nth-child(1) {
                 width: 6%;
             }
-            &-service {
+            &:nth-child(2) {
                 width: 30%;
-                padding-right: 35px;
+                padding-right: 25px;
             }
-            &-rate {
+            &:nth-child(3) {
                 width: 16%;
             }
-            &-min {
+            &:nth-child(4) {
                 width: 14%;
             }
-            &-max {
+            &:nth-child(5) {
                 width: 13%;
             }
-            &-description {
+            &:nth-child(5){
                 width: 19%;
             }
         }
@@ -528,23 +528,23 @@
 
     .table-content {
         .table-col {
-            &-id {
+            &:nth-child(1) {
                 width: 100%;
             }
-            &-service {
+            &:nth-child(2) {
                 width: 100%;
                 padding-right: 0;
             }
-            &-rate {
+            &:nth-child(3) {
                 width: 100%;
             }
-            &-min {
+            &:nth-child(4) {
                 width: 100%;
             }
-            &-max {
+            &:nth-child(5) {
                 width: 100%;
             }
-            &-description {
+            &:nth-child(6) {
                 width: 100%;
             }
         }

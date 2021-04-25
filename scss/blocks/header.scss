@@ -1,5 +1,10 @@
 // // header
 
+.header {
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+
 .header-secondary {
     padding-top: 41px;
     padding-bottom: 41px;
@@ -265,6 +270,11 @@
 
 @media (max-width: 768px) {
 
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
     .header-secondary {
         padding-top: 24px;
         padding-bottom: 24px;
@@ -300,6 +310,12 @@
 }
 
 @media (max-width: 500px) {
+
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
     .header-secondary {
         padding-top: 32px;
         padding-bottom: 32px;

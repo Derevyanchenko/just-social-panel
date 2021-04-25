@@ -494,37 +494,36 @@ input :-ms-input-placeholder {
 	}
 }	
 
+.front-page {
+
+	h4 {
+		font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #2F2E41;
+	}
+
+}
+
 
 .text-center {
 	text-align: center;
 }
 
 .section__title {
-	text-align: left;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 1;
-  color: #000000;
-  padding-bottom: 22px;
-  position: relative;
-  &:before {
-	  content: "";
-	  display: block;
-	  width: 150px;
-	  height: 2px;
-	  background: #FED330;
-	  left: 0;
-	  bottom: 0;
-	  position: absolute;
-  }
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	color: #2F2E41;
+	margin-bottom: 16px;
+	text-align: center;
 }
 
-.section__subtitle {
-	text-align: left;
-	font-size: 16px;
-    line-height: 23px;
+.section__text {
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
 }
 
 .mx-auto {

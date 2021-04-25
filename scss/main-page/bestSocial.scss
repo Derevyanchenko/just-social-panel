@@ -1,0 +1,153 @@
+// bestSocial
+
+.bestSocial {
+    margin-top: 150px;
+    position: relative;
+    // z-index: 0;
+}
+
+.bestSocial__decoration {
+    z-index: -1;
+    position: absolute;
+    top: -196px;
+    right: 0;
+    img {
+        max-width: 100%;
+    }
+}
+
+.bestSocial__wrapper {
+    margin-top: 100px;
+
+    .col-lg-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.bestSocial__img {
+    img {
+        max-width: 100%;
+    }
+}
+
+.bestSocial__content {
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 28px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+//  ##################################3333333
+// media
+
+@media (max-width: 1800px) {
+
+    .bestSocial__decoration {
+        z-index: -1;
+        position: absolute;
+        top: -105px;
+        right: -16px;
+        max-width: 366px;
+    }
+
+}
+
+
+@media (max-width: 1600px) {
+
+    .bestSocial__decoration {
+        top: -126px;
+        right: -3px;
+        max-width: 265px;
+    }
+
+}
+
+@media (max-width: 1440px) {
+
+    .bestSocial__decoration {
+        top: -125px;
+        right: 0px;
+        max-width: 230px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .bestSocial__decoration {
+        display: none;
+    }
+
+    .bestSocial__wrapper .col-lg-5 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .bestSocial__wrapper .col-lg-7 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .bestSocial__wrapper .col-lg-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .bestSocial__wrapper .col-lg-7 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .bestSocial {
+        margin-top: 70px;
+        .section__title {
+            margin-bottom: 0;
+        }
+    }
+
+    .bestSocial__wrapper {
+        margin-top: 50px;
+    }
+
+    .bestSocial__img {
+        margin-bottom: 28px;
+    }
+
+
+    .bestSocial__content p {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+
+    .bestSocial {
+        margin-top: 60px;
+    }
+
+    .bestSocial__wrapper {
+        margin-top: 40px;
+    }
+
+    .bestSocial__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+}
