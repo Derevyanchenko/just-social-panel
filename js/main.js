@@ -59,7 +59,7 @@ $(".btn-service-view").on("click", function(e) {
       popup_content_container = $(".popup .popup__content"),
 
       popup_content = parent.find(".table-popup-content").html(),
-      cuurent_service_name = parent.find('.table-col-service .table-col__content').text();
+      cuurent_service_name = parent.find('.table-col:nth-child(2) .table-col__content').text();
 
   popup_title_container.text(cuurent_service_name);
   popup_content_container.html(popup_content);
@@ -151,17 +151,33 @@ $(".faq__item").on("click", function(e) {
 
 });
 
+// $(".jq-selectbox__dropdown ul").mCustomScrollbar({
+//   axis:"y",
+//   theme:"dark-thin",
+//   autoExpandScrollbar:true,
+//   advanced:{autoExpandHorizontalScroll:true}
+// });
+
+
+
 $("select").styler({
   onSelectOpened: function() {
-		// к открытому селекту добавляется красная обводка
     $(".jq-selectbox__dropdown ul").mCustomScrollbar({
       axis:"y",
       theme:"dark-thin",
       autoExpandScrollbar:true,
-      advanced:{autoExpandHorizontalScroll:true}
+      advanced:{autoExpandHorizontalScroll:true},
+      
     });
-	}
+    console.log("open")
+	},
+  onSelectClosed: function() {
+    $(".jq-selectbox__dropdown ul").mCustomScrollbar("update");
+    console.log("close")
+  }
 });
+
+
 
 
 
