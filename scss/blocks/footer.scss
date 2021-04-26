@@ -30,6 +30,12 @@
             }
             a {
                 margin-right: 0 !important;
+                &:after {
+                    display: none !important;
+                }
+                &:hover {
+                    color: #FED330;
+                }
             }
         }
     }
